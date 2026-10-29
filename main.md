@@ -164,7 +164,7 @@ Upgrading to 4.0.0 requires the schema changes below. See [Schema changes in 4.0
 | Component | Requirement | Notes |
 | --- | --- | --- |
 | Agent JDK | 8+ | verified on 8 / 11 / 17 / 21 / 25 |
-| Collector / Web / Batch JDK | 17+ | |
+| Collector / Web / Batch JDK | 17 | |
 | Collector for agent 4.0.0 | 4.0.0+ | with the default `uid.version=v4`; pin `v3` for older collectors |
 | MySQL | 8.4+ | new `service` and alarm tables |
 | Pinot schema | migration | `serviceName` column added to `exceptionTrace` |

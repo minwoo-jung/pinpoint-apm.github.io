@@ -25,7 +25,7 @@
 **[Web]** Fixed focus to return to the service search box with ArrowUp from the first result
 
 ## Security
-**[Agent]** Bumped fastjson from 1.2.83 to 1.2.84 to fix CVE-2026-16723 (RCE under the default configuration) (#14584)
+**[none]** Bumped fastjson from 1.2.83 to 1.2.84 to fix CVE-2026-16723 (RCE under the default configuration) (#14584)
 **[Web]** Bumped handlebars, storybook, and shell-quote to fix critical vulnerabilities
 **[Web]** Bumped vite, zod, and transitive dependencies to fix high vulnerabilities
 **[Web]** Bumped postcss-selector-parser to 7.1.7 to fix a moderate vulnerability
@@ -42,7 +42,6 @@
 - Spring Kafka 3.3.15 → 3.3.16
 - Spring Retry 2.0.12 → 2.0.13
 - Spring Shell 3.4.2 → 3.4.3
-**[Build]** 
 - log4j2 2.25.4 → 2.25.5
 - jackson 2.21.4 → 2.21.8
 - snakeyaml 2.4 → 2.7
@@ -50,7 +49,6 @@
 - httpclient5 5.4.4 → 5.6.5
 - tomcat-embed 10.1.55 → 10.1.61
 - snappy-java 1.1.10.4 → 1.1.10.12
-**[Build]** 
 - oshi-core 6.9.1 → 7.7.3
 - jna 5.18.1 → 5.19.1
 - zstd-jni 1.5.7-16 → 1.5.7-25
